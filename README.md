@@ -1,3 +1,5 @@
+modified for arm architecture
+
 # Installation
 
 Step 1: Place [`ngrok`](https://ngrok.com/download) in `/opt/ngrok/`.
@@ -18,7 +20,7 @@ Step 5: Start ngrok service by typing:
 or just execute `install.sh` on Linux x64 platform.
 
 ```
-    curl -O https://raw.githubusercontent.com/vincenthsu/systemd-ngrok/master/install.sh
+    curl -O https://raw.githubusercontent.com/buraktt/systemd-ngrok/master/install.sh
     chmod +x install.sh
     sudo ./install.sh <your_authtoken>
 ```
